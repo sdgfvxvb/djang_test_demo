@@ -2,8 +2,6 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-curPath = os.path.abspath(os.path.dirname(__file__))
-sys.path.append(os.path.abspath(os.path.dirname(curPath) + os.path.sep + "."))
 
 def main():
     """Run administrative tasks."""
